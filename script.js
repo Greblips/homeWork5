@@ -22,7 +22,7 @@ function min(a, b) {
 // Задание 2
 
 
-const number = +prompt('Введите число');
+const number = + prompt('Введите число');
  function checkOdd(number){
     if( !isNaN(number) && number !=''){
         if( number % 2 === 0) alert(`Число ${number} четное`);
@@ -36,7 +36,7 @@ const number = +prompt('Введите число');
 
 //  Задание 3
 
-const multNumber = +prompt('Введите число');
+const multNumber = + prompt('Введите число');
 function multNumberResoult (multNumber) {
     return multNumber**2;
    
