@@ -1,18 +1,29 @@
-Ы// Задание 1
+2// Задание 1
 
 const a = 8;
 const b = 4;
 
-const comparison = (a, b) => (a > b)? console.log(`${a} больше ${b}`):(a < b)? console.log(`${b} больше ${a}`):console.log(`${a} равно ${b}`)
+function min(a, b) {
+    if (a < b) {
+      return a;
+    } else if(a < b) {
+      return b;
+    }
+    else {
+       return a;
+    }
+  }
 
-comparison(a,b);
+  min(a,b);
+
+  console.log(min(a,b))
 
 
 // Задание 2
 
 
-const number = prompt('Введите число');
-
+const number = +prompt('Введите число');
+console.log(typeof(number))
  function checkOdd(number){
     if( !isNaN(number) && number !=''){
         if( number % 2 === 0) alert(`Число ${number} четное`);
@@ -26,8 +37,7 @@ const number = prompt('Введите число');
 
 //  Задание 3
 
-const multNumber = prompt('Введите число');
-
+const multNumber = +prompt('Введите число');
 function multNumberResoult (multNumber) {
     return multNumber**2;
    
