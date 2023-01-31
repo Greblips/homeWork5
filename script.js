@@ -1,4 +1,4 @@
-// Задание 1
+Ы// Задание 1
 
 const a = 8;
 const b = 4;
@@ -80,7 +80,7 @@ const userNumber = prompt('Введите число возвадимое в к�
 
 //  Задание 7
 
-
+// https://github.com/Greblips/homeWork1/pull/4
 
 
 
