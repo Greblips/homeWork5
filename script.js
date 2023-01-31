@@ -23,7 +23,6 @@ function min(a, b) {
 
 
 const number = +prompt('Введите число');
-console.log(typeof(number))
  function checkOdd(number){
     if( !isNaN(number) && number !=''){
         if( number % 2 === 0) alert(`Число ${number} четное`);
